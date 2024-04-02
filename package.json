@@ -1,0 +1,27 @@
+{
+  "name": "@hippodamia/adapter-sandbox",
+  "version": "0.1.0-beta",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "@hippodamia:registry": "https://npm.pkg.github.com/hippodamia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@hippodamia/bot": "^1.1.2",
+    "pure-bot": "^0.0.7",
+    "ws": "^8.13.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
